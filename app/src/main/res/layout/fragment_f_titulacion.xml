@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fTitulacion">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        >
+
+        <Button
+            android:id="@+id/btnEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empresa"
+            android:layout_marginLeft="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnDeportes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deportes" />
+
+        <Button
+            android:id="@+id/btnInformatica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informatica" />
+    </LinearLayout>
+</FrameLayout>
